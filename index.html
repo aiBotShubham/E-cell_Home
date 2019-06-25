@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>E-cell IIT Gauwhati</title>
+    <title>E-cell IIT Gauwhati</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel = "stylesheet"
 	type = "text/css"
     href = "style_home.css" />
@@ -12,14 +13,27 @@
 </head>
 <body>
 	<nav>
-		<div class="nav-link">
+		<div class="topnav" id="myTopnav">
+            <a href="javascript:void(0);" class="icon active" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
 			<a href="#">Home</a>
 			<a href="#E">Events</a>
 			<a href="#G">Gallery</a>
 			<a href="#T">Team</a>
 			<a href="#C">Contact Us</a>
 		</div>
-	</nav>
+    </nav>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 	<section class="intro" >
 		<div class = "container_intro">
 			<h1>What is E-Cell?</h1>
