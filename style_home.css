@@ -38,12 +38,12 @@ nav a {
   text-decoration: none;
 }
 .active{
-  background-color: #0077FF!important;
+  background-color: #0077FF;
   color:white;
 }
 
 nav a:hover {
-  background-color: #0077FF;
+  background-color: #0077FF!important;
 }
 nav a:hover {
   color:white;
@@ -923,4 +923,9 @@ section {
   text-decoration: none;
   color: aliceblue ;
   
+}
+.active-link{
+   background-color: #e6ecf2;
+  background: linear-gradient(0deg, #e6ecf2 80%, #0275fb 20%)!important;
+  color: #707070;
 }
