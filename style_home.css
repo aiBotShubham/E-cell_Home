@@ -652,7 +652,7 @@ section {
   }
   .card p{
     display: none;
-    font-size: 19px;
+    font-size: 6px;
     height: fit-content;
   }
   .card button{
@@ -773,6 +773,12 @@ section {
   #T{
     height: 90vh;
   }
+  .expand{
+    padding:2px;
+  }
+  .expand a{
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px){
@@ -796,7 +802,7 @@ section {
 	margin-left: 4%;
 	margin-right: 4%;
 	margin-top: 50px;
-  height: 1000px;
+  height: 800px;
   
 }
 .card{
@@ -833,6 +839,13 @@ section {
 #T{
   height: 140vh;
 }
+.expand{
+  margin-top: 20px;
+  font-size: 10px;
+}
+.expand a{
+  font-size: 20px;
+}
 }
 
 
@@ -855,6 +868,13 @@ section {
     .social-end img{
       transform: scale(0.7 );
       padding-right: 10px;
+    }
+    .expand{
+      margin-top: -100px;
+      font-size: 10px;
+    }
+    .expand a{
+      font-size: 20px;
     }
   
 }
@@ -884,5 +904,23 @@ section {
   }  
 
   
+  
+}
+
+.expand{
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  background-color: #0275fb;
+  padding: 10px;
+  border: #FFFFFF;
+  border-radius: 20px;
+}
+.expand a{
+  text-decoration: none;
+  color: aliceblue ;
   
 }
