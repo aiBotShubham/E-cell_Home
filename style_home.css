@@ -19,7 +19,7 @@ nav div {
 	margin: 0;
 	list-style-type: none;
 	justify-content: flex-end;
-  margin-right: 4%;
+  
   overflow: hidden;
 
 }
@@ -462,6 +462,43 @@ section {
   width: fit-content;
   align-self: center;
 }
+.first-page{
+  background-image: url('first-page.png');
+  border-radius:50px; 
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  height: 100vh;
+  margin-top: 111.21px;
+  position: relative;
+  background-color: #0077ff7a;
+  background-blend-mode: screen;
+  display: flex;
+  flex-direction: column;
+}
+.first-page h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 128px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  margin-top: 225px;
+  text-shadow: 0px 4px 8px #404040;
+  text-align: center;
+}
+.first-page h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 127px;
+  color:#0077FF;
+  margin: 0 auto;
+  text-shadow: 0px 4px 8px #404040;
+}
+.first-page h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  text-shadow: 0px 1px 2px #404040;
+  text-align: center;
+}
 /* ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}]]]{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{[ */
 @media(max-width: 1281px) {
   nav a{
@@ -779,6 +816,15 @@ section {
   .expand a{
     font-size: 20px;
   }
+  .first-page h1{
+    font-size: 100px;
+  }
+  .first-page h2{
+    font-size: 99px;
+  }
+  .first-page h3{
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 768px){
@@ -846,6 +892,16 @@ section {
 .expand a{
   font-size: 20px;
 }
+.first-page h1{
+  font-size: 90px;
+}
+.first-page h2{
+  font-size: 89px;
+}
+.first-page h3{
+  font-size: 30px;
+}
+
 }
 
 
@@ -876,6 +932,15 @@ section {
     .expand a{
       font-size: 20px;
     }
+    .first-page h1{
+      font-size: 50px;
+    }
+    .first-page h2{
+      font-size: 49px;
+    }
+    .first-page h3{
+      font-size: 20px;
+    } 
   
 }
 @media (max-width: 320px){
@@ -901,6 +966,15 @@ section {
     }
   #C{
     height: 140vh;
+  }
+  .first-page h1{
+    font-size: 50px;
+  }
+  .first-page h2{
+    font-size: 49px;
+  }
+  .first-page h3{
+    font-size: 20px;
   }  
 
   
@@ -933,17 +1007,4 @@ section {
   left: 0px;
   top: 4px;
   position: absolute;
-}
-.first-page{
-  background-image: url('first-page.png');
-  border-radius:50px; 
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  height: 100vh;
-  margin-top: 111.21px;
-  /* z-index: 200; */
-  position: relative;
-  background-color: #0077ff59;
-  background-blend-mode: screen;
-  
 }
