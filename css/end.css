@@ -1,0 +1,43 @@
+.end{
+  align-content: center;
+  text-align: center;
+  background-color: #e6ecf2;
+  padding-top: 60px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+.end h1{
+  color: #0275fb;
+  font-size: 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+.social-end img{
+  padding-right: 30px;
+  align-content: center;
+  text-align: center;
+  transform: translateX(20px)
+}
+@media(max-width: 1281px){
+  .end{
+    padding-top: 40px;
+  }
+  .end h1{
+    font-size: 30px;
+  }
+  .end img{
+    transform: scale(0.8)
+  }
+}
+@media (max-width: 481px){
+  .social-end img{
+    transform: scale(0.7 );
+    padding-right: 10px;
+  }
+}
+@media (max-width: 320px){
+  .social-end img{
+    transform: scale(0.6 );
+  }
+}

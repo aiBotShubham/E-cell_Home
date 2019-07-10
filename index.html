@@ -8,10 +8,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel = "stylesheet"
 	type = "text/css"
+	href = "css/nav.css" />
+	<link rel = "stylesheet"
+	type = "text/css"
+	href = "css/first-page.css" />
+	<link rel = "stylesheet"
+	type = "text/css"
+	href = "css/intro.css" />
+	<link rel = "stylesheet"
+	type = "text/css"
+	href = "css/events.css" />
+	<link rel = "stylesheet"
+	type = "text/css"
+	href = "css/gallery.css" />
+	<link rel = "stylesheet"
+	type = "text/css"
+	href = "css/team.css" />
+	<link rel = "stylesheet"
+	type = "text/css"
+    href = "css/contact.css" />
+	<link rel = "stylesheet"
+	type = "text/css"
+    href = "css/end.css" />
+	<link rel = "stylesheet"
+	type = "text/css"
     href = "style_home.css" />
 
 </head>
 <body>
+<!-- //navigation		 -->
+<!-- //CSS => nav.css -->
 	<nav>
 		<div class="topnav" id="myTopnav">
 			<img class="logo" src = "ecell logo.png">
@@ -35,12 +61,23 @@
             }
         }
 	</script>
+<!-- //nav-end///////////////////////////////////////////////////////////// -->
+<!-- //First-Page////////////////////////////////////////////////////////// -->
+<!-- //CSS=>first-page.css -->
 	<section class="first-page">
 		<h1>WELCOME TO</h1>
 		<h2>E-CELL</h2>
 		<h3>INDIAN INSTITUTE OF TECHNOLOGY, GUWAHATI</h3>
+		<a href="#I"><div class="arrow">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		</a>
 	</section>
-	<section class="intro" >
+<!-- //First-Page end///////////////////////////////////////////////////////	 -->
+<!--Intro Page CSS:intro.css -->
+	<section class="intro" id="I" >
 		<div class = "container_intro">
 			<h1>What is E-Cell?</h1>
 			<p>The Entrepreneurship Cell of IIT Guwahati is a student-run organisation of spirited individuals who are striving to create, foster and promote entrepreneurship among the students of IIT Guwahati.</p>
@@ -111,10 +148,10 @@
 			  <path id="Path_590" data-name="Path 590" d="M869.471,553.154a33.706,33.706,0,0,0-3.627-15.255l-19.585,6.091,17.194-10.11a33.848,33.848,0,0,0-25.432-14.492,33.8,33.8,0,0,0-2.642-3.493l-28.126,8.756,23.071-13.567a33.847,33.847,0,0,0-53.291,18.052l24.092,27.734-26.135-18.9A33.855,33.855,0,0,0,805.284,597.7a33.988,33.988,0,0,0,21.672.6,33.884,33.884,0,0,0,41.168-33.055c0-.74,0-1.48-.074-2.221a33.775,33.775,0,0,0,1.421-9.866Z" transform="translate(-236.895 -182.794)" fill="#07f"/>
 			  <path id="Path_591" data-name="Path 591" d="M868.868,576.13a90.225,90.225,0,0,0-31.338-.4c-11.761,1.947-23.781,6.225-35.283,3.1-6.75-1.836-12.583-6.084-19.177-8.445a36.4,36.4,0,0,0-19.8-1.184,33.87,33.87,0,0,0,41.96,45.194,33.988,33.988,0,0,0,21.672.6,33.884,33.884,0,0,0,41.168-33.055c0-.74,0-1.48-.074-2.22a33.441,33.441,0,0,0,.873-3.59Z" transform="translate(-236.877 -199.494)" opacity="0.1"/>
 			</g>
-		  </svg>
-
+		</svg>
 	</section>
-
+<!-- Intro Page End -->
+<!-- Events Page CSS: events.css -->
 	<section class="events" id="E">
 		<img class = "events-img" src="undraw_schedule_pnbk.svg">
         <h1 class="h1-head">Events</h1>
@@ -143,6 +180,8 @@
 		</div>
 		<h2 class="expand"><a href="events.html">See More</a></h2>
     </section>
+<!-- Events Page End -->
+<!-- Gallery Page CSS: gallery.css -->
     <section id="G">
         <h1 class="h1-head">Gallery</h1>
         <img class = "gallery-img" src="Gallery.svg	">
@@ -156,10 +195,10 @@
 			<img src="EDCworkshop(2).png">
 			<img src="EDC3.png">
 			<button class="More">See More</button>
-
-
         </div>
-    </section>
+	</section>
+<!--Gallery Page End  -->
+<!-- Team Page CSS: team.css -->
     <section class="events" id="T">
             <img class = "team-img" src="Team illustration.png">
             <h1 class="h1-head team">Team</h1>
@@ -187,7 +226,6 @@
                         <img src="outlook.png" alt="">
                         <img src="fb logo.png" alt="">
                     </div>
-
                 </div>
                 <div class = "card-team">
                     <img src="rhythum.png">
@@ -200,29 +238,49 @@
                         <img src="outlook.png" alt="">
                         <img src="fb logo.png" alt="">
                     </div>
-
                 </div>
 			</div>
 			<h2 class="expand"><a href="team.html">Meet our whole team</a></h2>
-        </section>
+		</section>
+<!--Team Page End  -->
+<!-- Contact Page CSS: contact.css -->
         <section id="C">
-                <h1 class="h1-head" id="h1-white">Contact Us</h1>
-
-				<div class ="query-info">
-
-                    <h1>Tell us about you</h1>
-                    <input type="text" name="firstname" placeholder="Name">
-                    <input type="email" name="email" placeholder="Email">
-                    <input type="number" name="number" placeholder="Phone No.">
-                    <button>Reset</button>
-                </div>
-                <div class = 'query'>
-                    <h1>Tell us your query</h1>
-                    <input type="text" placeholder="Write your message ">
-                    <button>Submit</button>
+			<h1 class="h1-head" id="h1-white">Contact Us</h1>
+			<div class="C-container">
+				<div class ="query">
+						<h1>Tell us your query</h1>
+                    <div>
+						<input type="text" name="firstname" placeholder="Name">
+						<input type="email" name="email" placeholder="Email">
+					</div>
+					<input class="subject" type="text" name="subject" placeholder="Subject">
+					<input class="message" type="text" placeholder="Write your message ">
+                    <div>
+						<button style="margin-right: 20px">Submit</button>
+						<button>Reset</button>
+					</div>
 				</div>
-
-        </section>
+				<div class="contact-info">
+					<h1>About Us</h1>
+					<div class="a">
+						<img src="map-localization.png">
+						<h4>Address:</h4>
+						<p>New SAC Building, IIT Guwahati, Amingaon, Guwahati Assam 781039</p>
+						<img src="phone-receiver.png">
+						<h4>Phone:</h4>
+						<p>+91-983937289</p>
+						<img src="close-envelope.png">
+						<h4>E-Mail:</h4>
+						<p>ecell@iitg.ac.in</p>
+						<img src="messenger.png">
+						<h4>Messenger:</h4>
+						<p>www.messenger.com/ t/135030299878674</p>
+					</div>
+				</div>
+			</div>	
+		</section>
+<!--Conatact Page End  -->
+<!--End Div CSS:end.css-->
         <div class="end">
             <div class ="social-end">
                 <img src="fb logo.png" alt="">
@@ -231,6 +289,7 @@
                 <img src="twitter logo.png" alt="">
             </div>
             <h1>&copy; E-cell, IIT Gauwhati</h1>
-        </div>
+		</div>
+<!--EnD-->
 </body>
 </html>

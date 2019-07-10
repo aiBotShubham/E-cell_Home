@@ -1,0 +1,97 @@
+.C-container{
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+}
+.C-container h1{
+  font-size: 50px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #FFFFFF;
+}
+.contact-info{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 757px;
+  height:fit-content;
+  padding-bottom:40px; 
+  min-width: 757px;
+  background-color: #0276fb00;
+  text-align: center;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 27px;
+}
+.contact-info .a {
+  width: 757px;
+  display: grid;
+  grid-template-columns: 60px 2fr auto; 
+}
+.a img{
+  margin: auto auto;
+}
+.query{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto; 
+  width: fit-content;
+  height:fit-content;
+  padding-bottom:40px; 
+  min-width: 757px;
+  background-color: #E6ECF2;
+  text-align: center;
+  border-radius: 10px;
+}
+.query h1{
+  font-size: 50px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #0275fb;
+  height: fit-content;
+}
+.query div{
+  display: inline;
+  margin: 0 70px;
+}
+.query div input{
+  font-size: 27px;
+  font-family: 'Segoe UI', sans-serif;
+  height: 60px;
+  width: 300px;
+  border-radius: 15px;
+  padding-left: 20px; 
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.query .subject{
+  font-size: 27px;
+  font-family: 'Segoe UI', sans-serif;
+  height: 60px;
+  border-radius: 15px;
+  padding-left: 20px; 
+  margin: 10px 70px;
+}
+.query .message{
+  font-size: 27px;
+  font-family: 'Segoe UI', sans-serif;
+  height: 230px;
+  border-radius: 15px;
+  padding-left: 20px; 
+  margin: 10px 70px;
+}
+.query button{
+  font-size: 50px;
+  margin-top: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #0077FF;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  border: none;
+  width: 300px;
+  padding: 20px;
+  align-self: center;
+  min-width: fit-content;
+}
+
+.contact-us-container{
+  width: fit-content;
+  align-self: center;
+}

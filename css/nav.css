@@ -1,0 +1,88 @@
+nav{
+  top: 0;
+  background: #E6ECF2;
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+  height: 111.21px;
+  min-height:fit-content;
+}
+nav div{
+  padding: 0;
+  display: flex;
+  margin: 0;
+  list-style-type: none;
+  justify-content: flex-end;
+  overflow: hidden;
+  height: 100%;
+}
+nav a{
+  padding: 40px 2em;
+  font-size: 25px;
+  font-family: 'Segoe UI', sans-serif;
+  transition:  all  0.3s;
+  text-decoration: none;
+  color:#6f6f70;
+}
+.active{
+  background: linear-gradient(0deg, #e6ecf2 85% , #0275fb 15%);
+}
+nav a:hover {
+  color:rgb(0, 0, 0);
+}
+nav .icon {
+  display: none;
+}
+.logo{
+  left: 3px;
+  top: 0px;
+  position: absolute;
+  height: 90px;
+}
+@media screen and (max-width: 788px) {
+  .topnav a:not(:first-child){
+    display: none;
+  }
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+  .topnav{
+    z-index: 400;
+  }
+  .topnav.responsive {
+    height: fit-content;
+    flex-direction: column; 
+    position: relative;
+  }
+  .active{
+    background: #0275fb;
+    color: #E6ECF2;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    background-color: #e6ecf2;
+    color: #404040; 
+    text-align: center;
+  }
+  .topnav.responsive a:hover {
+    color:rgb(0, 0, 0);
+  }
+}
+/* Responsive */
+@media(max-width: 1281px) {
+  nav a{
+    padding-top: 40px;
+    font-size: 20px;
+    height: 50px;
+  }
+  nav{
+    height: 90px;
+  }
+}  
