@@ -145,6 +145,32 @@
   .over-container{
     margin: 0 10px;
   }
+  .C-container h1{
+    font-size: 30px;
+  }
+  .contact-info{
+    font-size: 10px;
+    grid-column-gap: 5px;
+  }
+  .contact-info .a {
+    grid-template-columns: 30px 2fr auto; 
+  }
+  
+  .query h1{
+    font-size: 30px;
+  }
+  .query div input{
+    font-size: 13px;
+  }
+  .query .subject{
+    font-size: 13px;
+  }
+  .query .message{
+    font-size: 13px;
+  }
+  .query button{
+    font-size: 30px;
+  }
 }
 @media(max-width: 481px){
   .over-container{
