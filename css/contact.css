@@ -1,7 +1,12 @@
+.over-container{
+  margin: 0 100px;
+}
 .C-container{
-  width: fit-content;
+  /* width: fit-content; */
   display: flex;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .C-container h1{
   font-size: 50px;
@@ -12,35 +17,39 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 757px;
-  height:fit-content;
   padding-bottom:40px; 
-  min-width: 757px;
-  background-color: #0276fb00;
+  background-color: #0276fb6e;
   text-align: center;
   border-radius: 10px;
   color: #FFFFFF;
   font-size: 27px;
+  float: left;
+ 
 }
 .contact-info .a {
-  width: 757px;
   display: grid;
   grid-template-columns: 60px 2fr auto; 
 }
 .a img{
   margin: auto auto;
 }
+.a h4{
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
 .query{
   display: grid;
-  grid-template-rows: auto auto auto auto auto; 
-  width: fit-content;
-  height:fit-content;
+  grid-template-rows: 1.5fr 0.75fr 0.75fr 2fr 0.75fr; 
+  grid-row-gap: 20px;
   padding-bottom:40px; 
-  min-width: 757px;
   background-color: #E6ECF2;
   text-align: center;
   border-radius: 10px;
+  padding: 0 30px 20px;
+  /* max-width: 700px; */
 }
+
 .query h1{
   font-size: 50px;
   font-family: 'Segoe UI', sans-serif;
@@ -48,50 +57,97 @@
   height: fit-content;
 }
 .query div{
-  display: inline;
-  margin: 0 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-column-gap: 20px;
 }
 .query div input{
   font-size: 27px;
   font-family: 'Segoe UI', sans-serif;
-  height: 60px;
-  width: 300px;
+  /* height: 60px; */
+  /* width: 300px; */
   border-radius: 15px;
   padding-left: 20px; 
-  padding-top: 12px;
-  padding-bottom: 12px;
+  /* padding-top: 12px; */
+  /* padding-bottom: 12px; */
 }
 .query .subject{
   font-size: 27px;
   font-family: 'Segoe UI', sans-serif;
-  height: 60px;
+  /* height: 60px; */
   border-radius: 15px;
   padding-left: 20px; 
-  margin: 10px 70px;
+  /* margin: 10px 70px; */
 }
 .query .message{
   font-size: 27px;
   font-family: 'Segoe UI', sans-serif;
-  height: 230px;
+  /* height: 230px; */
+  /* height: 230px; */
   border-radius: 15px;
   padding-left: 20px; 
-  margin: 10px 70px;
+  /* margin: 10px 70px; */
 }
 .query button{
   font-size: 50px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   font-family: 'Segoe UI', sans-serif;
   color: #0077FF;
   border-radius: 50px;
   background-color: #FFFFFF;
   border: none;
-  width: 300px;
-  padding: 20px;
+  /* width: 300px; */
+  /* padding: 20px; */
   align-self: center;
-  min-width: fit-content;
+  /* min-width: fit-content; */
 }
-
 .contact-us-container{
-  width: fit-content;
+ 
   align-self: center;
+}
+@media(max-width: 1281px){
+  .C-container h1{
+    font-size: 40px;
+  }
+  .contact-info{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    grid-column-gap: 10px;
+  }
+  .contact-info .a {
+    grid-template-columns: 40px 2fr auto; 
+  }
+  
+  .query h1{
+    font-size: 40px;
+  }
+  .query div input{
+    font-size: 17px;
+  }
+  .query .subject{
+    font-size: 17px;
+  }
+  .query .message{
+    font-size: 17px;
+  }
+  .query button{
+    font-size: 40px;
+  }
+}
+@media(max-width: 1025px){
+  .C-container{
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media(max-width: 740px){
+  .over-container{
+    margin: 0 10px;
+  }
+}
+@media(max-width: 481px){
+  .over-container{
+    margin: 0 ;
+  }
 }
