@@ -1,10 +1,7 @@
 .over-container{
-  margin: 0 100px;
+  margin: 0 5em;
 }
 .C-container{
-  /* width: fit-content; */
-  display: flex;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -15,15 +12,12 @@
 }
 .contact-info{
   position: relative;
-  display: flex;
-  flex-direction: column;
   padding-bottom:40px; 
-  background-color: #0276fb6e;
+  background-color: #0276fbad;
   text-align: center;
   border-radius: 10px;
   color: #FFFFFF;
   font-size: 27px;
-  float: left;
  
 }
 .contact-info .a {
@@ -46,8 +40,8 @@
   background-color: #E6ECF2;
   text-align: center;
   border-radius: 10px;
-  padding: 0 30px 20px;
-  /* max-width: 700px; */
+  padding: 0 5% 40px;
+  width: 90%;
 }
 
 .query h1{
@@ -59,13 +53,13 @@
 .query div{
   display: grid;
   grid-template-columns: 1fr 1fr; 
-  grid-column-gap: 20px;
+  /* grid-column-gap: 20px; */
 }
 .query div input{
   font-size: 27px;
   font-family: 'Segoe UI', sans-serif;
   /* height: 60px; */
-  /* width: 300px; */
+  width: auto;
   border-radius: 15px;
   padding-left: 20px; 
   /* padding-top: 12px; */
@@ -149,9 +143,12 @@
     font-size: 30px;
   }
   .contact-info{
-    font-size: 10px;
+    font-size: 15px;
     grid-column-gap: 5px;
   }
+  .contact-info img{
+    transform: scale(0.6);
+    }
   .contact-info .a {
     grid-template-columns: 30px 2fr auto; 
   }

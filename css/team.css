@@ -14,20 +14,24 @@
   margin-right: 12%;
   margin-top: 200px;
   grid-column-gap: 30px;
+  /* height: 200px; */
 }
 .card-team{
+  position: relative;
   background-color: #e6ecf2;
   margin:0;
-  height: 580px;
+  height: 400px;
   border-radius: 20px;
   border-style: solid;
   border-width: 0.5px;
   box-shadow:1px 2px #ccc; 
-  position: relative;   
+  cursor: pointer;
+  /* position: relative;    */
 }
-.card-team>img{
+.card-team #transformed-img{
   object-fit: cover;
-  transform: translateY(-160px);
+  /* position: absolute; */
+  transform: translateY(-130px);
   width:60%; 
 }
 .card-team{
@@ -39,20 +43,17 @@
   text-transform: uppercase;  
   transform: translateY(-160px);
   color: #333333;
-  font-size: 35px;
+  font-size: 20px;
 }
 .card-team .Name{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
   color:#333333;
   flex:1;
 }
-.social{
-  transform: translateY(-160px);  
-  align-self: center;
-}
-.social img{
+#social img{
   padding:20px; 
+  transform: translateY(-160px); 
 }  
 @media(max-width: 1281px){
   .team-holder {
@@ -61,7 +62,7 @@
   .card-team{
     height: 340px;
   }
-  .card-team>img{
+  .card-team #transformed-img{
     transform: translateY(-120px); 
   }
   .card-team h2{ 
@@ -90,7 +91,7 @@
   .card-team{
     height: 340px;
   }
-  .card-team>img{
+  .card-team #transformed-img{
     transform: translate(0);
     display: none;
   }

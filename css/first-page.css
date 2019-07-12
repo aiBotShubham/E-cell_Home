@@ -7,10 +7,8 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     height: 100vh;
-   
-    /* margin-top: 90px; */
     position: relative;
-    background-color: rgba(82, 161, 251, 0.37);
+    background-color: rgba(107, 160, 230, 0.623);
     background-blend-mode: overlay;
     display: flex;
     flex-direction: column;
@@ -18,30 +16,30 @@
 }
 .first-page h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 128px;
+    font-size: 120px;
     color: #FFFFFF;
     margin: 0 auto;
     margin-top: 225px;
-    text-shadow: 0px 4px 8px #404040;
+    text-shadow: 0px 8px 16px #404040;
     text-align: center;
 }
 .first-page h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 127px;
+    font-size: 119px;
     color:#0077FF;
     margin: 0 auto;
     margin-top: 10px;
-    text-shadow: 0px 4px 8px #404040;
+    text-shadow: 0px 8px 16px #404040;
 }
 .first-page h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     color: #FFFFFF;
     margin: 0 auto;
     margin-top: 20px;
-    text-shadow: 0px 1px 2px #404040;
+    text-shadow: 0px 2px 4px #404040;
     text-align: center;
-    font-weight: 1;
+    font-weight: lighter;
 }
 .arrow{
     position: absolute;
@@ -58,7 +56,7 @@
     border-right: 10px solid #0077FF;
     transform: rotate(45deg);
     margin: -20px;
-    animation: animate 2s infinite;
+    animation: animate 5s infinite;
 }
 .arrow span:nth-child(2){
     animation-delay: -0.2s;

@@ -25,7 +25,7 @@ nav a{
   color:#6f6f70;
 }
 .active{
-  background: linear-gradient(0deg, #e6ecf2 85% , #0275fb 15%);
+  background: linear-gradient(0deg, #e6ecf2 90% , #0275fb 10%);
 }
 nav a:hover {
   color:rgb(0, 0, 0);
@@ -35,9 +35,9 @@ nav .icon {
 }
 .logo{
   left: 3px;
-  top: 0px;
+  top: 2px;
   position: absolute;
-  height: 90px;
+  height: 80px;
 }
 @media screen and (max-width: 788px) {
   .topnav a:not(:first-child){
@@ -75,14 +75,11 @@ nav .icon {
     color:rgb(0, 0, 0);
   }
 }
-/* Responsive */
-@media(max-width: 1281px) {
-  nav a{
-    padding-top: 40px;
-    font-size: 20px;
-    height: 50px;
-  }
-  nav{
-    height: 90px;
-  }
-}  
+nav a{
+  padding-top: 32px;
+  font-size: 20px;
+  height: 50px;
+}
+nav{
+  height: 90px;
+}
