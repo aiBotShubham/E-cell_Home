@@ -1,9 +1,12 @@
 .team-img{
-  left: 400px;
+  /* left: 400px; */
   position: absolute;
-  transform: translateY(-30%);
-  z-index: -3448;
-  width: 60%;
+  transform: translateY(-10%);
+  /* z-index: -3448; */
+  width: 70%;
+  align-content: center;
+  justify-content: center;
+  left: 300px;
 }
   
 .team-holder {
