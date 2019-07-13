@@ -1,12 +1,16 @@
-.team-img{
-  /* left: 400px; */
+.girl{
   position: absolute;
-  transform: translateY(-10%);
-  /* z-index: -3448; */
-  width: 70%;
-  align-content: center;
-  justify-content: center;
-  left: 300px;
+  width: 100%;
+  bottom: 20px;
+
+}
+#eye{
+  position: absolute;
+  left: 20%;
+}
+#eye2{
+  position: absolute;
+  right:  20%;
 }
   
 .team-holder {
@@ -132,6 +136,13 @@
     margin-top: 20px;
     width: 300px;
     align-self: center;
+  }
+  #eye{
+    
+    left: 10%;
+  }
+  #eye2{
+    right:  10%;
   }
 }
 /* @media(max-width: 481px){
