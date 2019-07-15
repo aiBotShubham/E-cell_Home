@@ -1,9 +1,41 @@
-.gallery-img {
+/* .gallery-img {
   position: absolute;
   right:10px;
   transform: translateY(-70%);
   z-index: -300;
   width: 47%;
+} */
+#lamp-girl{
+  width: 20%;
+  position: absolute;
+  top: 140px;
+}
+#bulb{
+  transition: all 2s;
+}
+#path6{
+  transition: all 3s;
+}
+#ellipse4{
+  transition: all 4s;
+}
+#path90{
+  transition: all 4s;
+}
+#path94{
+  transition: all 4s;
+}
+#heart-element{
+  position: absolute;
+  top: 40px;
+  right: 5%;
+  width: 15%;
+}
+#comment-box{
+  transition: all 2s;
+}
+#heart{
+  transition: all 1s;
 }
 /* .More {
   height: 247px;
@@ -22,6 +54,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 20%;
 }
 .container img{
   margin: 0;
@@ -56,6 +89,16 @@
     max-height: 200px;
     max-width: 200px;    
   }
+  #lamp-girl{
+    width: 30%;
+    top: 100px;
+    z-index: -100;
+  }
+  #heart-element{
+    width: 25%;
+    top: 10px;
+  }
+
  
 }
 /* @media(max-width: 768px){
@@ -63,10 +106,13 @@
     height: 100px;
     width:  100px;
   }
-}
+} */
 @media(max-width: 481px){
-  
+  #lamp-girl{
+    width: 40%;
+    top: 40px;
+  }
 }
 @media(max-width: 320px){
   
-} */
+}

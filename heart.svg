@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   viewBox="0 0 293.06175 238.36453"
+   height="238.3645"
+   width="293.06177"
+   data-name="Layer 1"
+   id="a62e712f-3cb4-4d7a-829a-d896e102ddef">
+  <metadata
+     id="metadata113">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>review</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs111" />
+  <title
+     id="title2">review</title>
+  <g
+     transform="translate(285.94791,-776.22867)"
+     id="comment">
+    <g
+       transform="matrix(1,0,0,1.162648,0,-165.12315)"
+       id="heart-box">
+      <polygon
+         id="comment-box"
+         points="698.765,505.833 635.771,470.707 450.114,523.437 412.411,390.687 665.405,318.833 703.108,451.582 684.831,456.773 "
+         style="fill:#83d3b7"
+         transform="matrix(-1,0,0,1,417.90468,491.78112)" />
+      <path
+         id="heart"
+         d="m -156.83044,940.27019 6.22365,-2.75918 c 22.18133,-10.05224 36.77408,-16.52648 40.48331,-28.29414 a 19.31416,17.403 0 0 0 -13.42067,-21.84176 21.009318,18.93042 0 0 0 -17.42341,2.56962 21.008453,18.92964 0 0 0 -13.3233,-10.43807 19.31416,17.403 0 0 0 -24.15863,12.22475 c -3.70929,11.7678 4.92832,24.187 17.93411,43.24388 z"
+         style="fill:#ffffff;stroke-width:1.05347896" />
+    </g>
+  </g>
+</svg>

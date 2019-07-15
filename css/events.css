@@ -11,8 +11,9 @@
   color: #0077FF;
   font-size: 70px;
   margin-top: 0;
+  opacity: 1;
+  transition: 1s;
 }
-
 .card-holder {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -110,6 +111,35 @@
 .expand a{
   text-decoration: none;
   color: #0275fb ;
+}
+#cloud_sun{
+  position: absolute;
+  width: 30%;
+  top: -400px;
+}
+#cloud_1{
+  position: absolute;
+  width: 20%;
+  top: -300px;
+  right: 10%;
+}
+#cloud_2{
+  position: absolute;
+  width: 20%;
+  top: -100px;
+  right: 30%;
+}
+#cloud_3{
+  position: absolute;
+  width: 20%;
+  top: 0px;
+  right: 50%;
+}
+#cloud_4{
+  position: absolute;
+  width: 30%;
+  top: -300px;
+  right: 40%;
 }
 @media(max-width: 1281px){
   .h1-head {

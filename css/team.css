@@ -62,6 +62,12 @@
   padding:20px; 
   transform: translateY(-160px); 
 }  
+#pupil1{
+  transition: all 0.3s;
+}
+#pupil2{
+  transition: all 0.4s;
+}
 @media(max-width: 1281px){
   .team-holder {
     grid-column-gap: 20px;
@@ -144,6 +150,7 @@
   #eye2{
     right:  10%;
   }
+
 }
 /* @media(max-width: 481px){
   
