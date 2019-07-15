@@ -1,0 +1,218 @@
+#team .h1-head{
+    margin-bottom: 250px; 
+}
+#team .card{
+    width: 100%;
+    position: relative;
+    background-color: #e6ecf2;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    box-shadow:1px 2px #ccc;
+    height: 90%;
+}
+#team .card #profile{
+    object-fit: cover;
+    width:70%; 
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-40%);
+}
+#team .card div{
+    transform: translateY(-30%);
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+#team .card div h1{
+    padding: 10px 0;
+    font-size: 30px;
+    color: #333333;
+    font-weight: 300;
+    margin: 10px 0;
+    margin-bottom: 0; 
+}
+#team .card div h2{
+    padding: 10px 0;
+    padding-top: 0;
+    font-size: 30px;
+    color: #333333;
+    font-weight: 300;
+    margin: 0;
+}
+#team .card div img{
+    padding: 20px;
+}
+#team .holder-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 10%;
+    grid-column-gap: 10%; 
+}
+#team .holder-2{
+    display: grid;
+    grid-template-columns: 1fr 0.35fr 1fr;
+    margin: 200px 25%;
+}
+#team .holder-2 #right-card{
+    grid-column-start: 3;
+}
+#team .holder-3{
+    display: grid;
+    grid-template-columns: 1fr 1.25fr 1fr;
+    margin: 200px 15%;
+} 
+#team .holder-3 #right-card{
+    grid-column-start: 3;
+}
+@media(max-width:1281px){
+    #team .card{
+        height: 85%;
+    }
+    #team .card #profile{
+        width:70%; 
+        transform: translateY(-40%);
+    }
+    #team .card div{
+        transform: translateY(-28%);
+    }
+    #team .card div h1{
+        padding: 10px 0;
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    #team .card div h2{
+        padding: 10px 0;
+        font-size: 30px;
+    }
+    #team .card div img{
+        padding: 20px;
+    }
+    #team .holder-1{
+        display: grid;
+        margin: 0 7%;
+        grid-column-gap: 5%; 
+    }
+    #team .holder-2{
+        grid-template-columns: 1fr 0.35fr 1fr;
+        margin: 200px 20%;
+    }
+    #team .holder-3{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 200px 12%;
+    }
+}
+@media(max-width:1025px){
+    #team .card{
+        height: 90%;
+    }
+    #team .card #profile{
+        width:60%; 
+        transform: translateY(-40%);
+    }
+    #team .card div{
+        transform: translateY(-20%);
+    }
+    #team .card div h1{
+        padding: 10px 0;
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    #team .card div h2{
+        padding: 10px 0;
+        font-size: 30px;
+    }
+    #team .card div img{
+        padding: 10px;
+    }
+    #team .holder-1{
+        display: grid;
+        margin: 0 5%;
+        grid-column-gap: 4%; 
+    }
+    #team .holder-2{
+        grid-template-columns: 1fr 0.25fr 1fr;
+        margin: 200px 16%;
+    }
+    #team .holder-3{
+        grid-template-columns: 1fr 0.75fr 1fr;
+        margin: 200px 10%;
+    }
+}
+@media(max-width:768px){
+    #team .card{
+        height: 90%;
+    }
+    #team .card #profile{
+        width:60%; 
+        transform: translateY(-40%);
+    }
+    #team .card div{
+        transform: translateY(-15%);
+    }
+    #team .card div h1{
+        padding: 10px 0;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    #team .card div h2{
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    #team .card div img{
+        padding: 10px;
+        height: 20px;
+    }
+    #team .holder-1{
+        display: grid;
+        margin: 0 2%;
+        grid-column-gap: 2%; 
+    }
+    #team .holder-2{
+        grid-template-columns: 1fr 0.25fr 1fr;
+        margin: 200px 10%;
+    }
+    #team .holder-3{
+        grid-template-columns: 1fr 0.75fr 1fr;
+        margin: 200px 5%;
+    }
+}
+@media(max-width:481px){
+    #team .card{
+        height: 90%;
+    }
+    #team .card #profile{
+        width:60%; 
+        transform: translateY(-40%);
+    }
+    #team .card div{
+        transform: translateY(-10%);
+    }
+    #team .card div h1{
+        padding: 5px 0;
+        font-size: 17px;
+        margin: 5px 0;
+    }
+    #team .card div h2{
+        padding: 5px 0;
+        font-size: 15px;
+    }
+    #team .card div img{
+        padding: 5px;
+        height: 13px;
+    }
+    #team .holder-1{
+        display: grid;
+        margin: 0 2%;
+        grid-column-gap: 2%; 
+    }
+    #team .holder-2{
+        grid-template-columns: 1fr 0.1fr 1fr;
+        margin: 200px 10%;
+    }
+    #team .holder-3{
+        grid-template-columns: 1fr 0.50fr 1fr;
+        margin: 200px 5%;
+    }
+}
